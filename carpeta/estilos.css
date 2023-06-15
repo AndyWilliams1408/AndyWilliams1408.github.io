@@ -5,7 +5,7 @@
 }
 .container {
     display: grid;
-    grid-template: 200px 1fr 200px / 325px 1fr 325px;
+    grid-template: 200px 1fr 200px / 2000px 1fr 2000px;
     grid-template-areas: "left header header" "left content right" "footer footer right";
     grid-gap: 5px;
     height: 100vh;
