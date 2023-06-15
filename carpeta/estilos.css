@@ -1,38 +1,41 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 .container {
     display: grid;
-    grid-template: 150px 1fr 50px / 200px 1fr;
-    grid-template-areas: "header header" "left content" "footer footer" "right content";
+    grid-template: 200px 1fr 200px / 325px 1fr 325px;
+    grid-template-areas: "left header header" "left content right" "footer footer right";
     grid-gap: 5px;
     height: 100vh;
 }
 
 .item {
     padding: 10px;
-    border: 1px solid black;
 }
 
 .header {
     grid-area: header;
-    background-color: orange;
+    background-color: chocolate;
 }
 
 .left {
     grid-area: left;
+    background-color: darkgrey;
 }
 
 .content {
     grid-area: content;
+    background-color: green;
+}
+
+.right {
+    grid-area: right;
+    background-color: black;
 }
 
 .footer {
     grid-area: footer;
-}
-
-.right {
-    grid-area: content;
-    background-color: gray;
+    background-color: orange;
 }
