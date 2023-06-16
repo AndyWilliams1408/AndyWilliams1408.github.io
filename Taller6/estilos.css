@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item1{
+    border: 2px dotted black;;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.item2{
+    border: 3px dotted black;;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item3{
+    border: 4px dotted black;;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item4{
+    border: 5px dotted black;;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item5{
+    border: 6px dotted black;;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
